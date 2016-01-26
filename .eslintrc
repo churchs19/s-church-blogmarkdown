@@ -1,0 +1,17 @@
+{
+    "extends": "eslint:recommended",
+    "root": true,
+    "ecmaFeatures": {
+        "blockBindings": true,
+        "arrowFunctions": true,
+        "templateStrings": true
+    },
+    "rules": {
+        "quotes": [2, "single", "avoid-escape"]
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "jquery": true
+    }
+}
